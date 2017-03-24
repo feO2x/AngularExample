@@ -2,9 +2,14 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>TypeScript Example</title>
+    <script src="scripts/greeter.js"></script>
 </head>
 <body>
-    <h1>Hello from .NET Core</h1>
+    <div id="message"></div>
+    <div>
+        Compiler: <input id="compiler" value="TypeScript" onkeyup="document.getElementById('message').innerText = sayHello()" /><br />
+        Framework: <input id="framework" value="ASP.NET" onkeyup="document.getElementById('message').innerText = sayHello()" />
+    </div>
 </body>
 </html>
