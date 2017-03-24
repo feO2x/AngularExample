@@ -5,6 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot/greeter.js" />
+    <Content Remove="wwwroot/greeter.js.map" />
+    <Content Remove="wwwroot/greeter.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Include="wwwroot\index.html" />
   </ItemGroup>
   <ItemGroup>
