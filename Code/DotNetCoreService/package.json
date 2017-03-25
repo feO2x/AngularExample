@@ -1,12 +1,16 @@
 {
   "version": "1.0.0",
-  "name": "asp.net",
+  "name": "dotnetcoreservice",
   "private": true,
+  "dependencies": {
+    "@angular/core": "~4.0.0",
+    "@angular/platform-browser" : "~4.0.0"
+  },
   "devDependencies": {
     "cpx": "1.5.0"
   },
   "scripts": {
-    "copyWebClient": "cpx \"scripts/**/*.{ts,js,map}\" \"wwwroot/scripts\""
+    "copyWebClient": "cpx \"WebClient/**/*.{ts,js,map}\" wwwroot"
   },
   "-vs-binding": { "AfterBuild": [ "copyWebClient" ] }
 }

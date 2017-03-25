@@ -252,9 +252,9 @@ paket-files/
 *.sln.iml
 
 # script JS and map files
-Code/DotNetCoreService/scripts/**/*.js
-Code/DotNetCoreService/scripts/**/*.map
+Code/DotNetCoreService/WebClient/**/*.js
+Code/DotNetCoreService/WebClient/**/*.map
 
-# wwwroot copied script files
-Code/DotNetCoreService/wwwroot/scripts/
+# wwwroot
+Code/DotNetCoreService/wwwroot/
 
