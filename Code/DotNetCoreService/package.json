@@ -10,7 +10,7 @@
     "cpx": "1.5.0"
   },
   "scripts": {
-    "copyWebClient": "cpx \"WebClient/**/*.{ts,js,map}\" wwwroot"
+    "copyWebClient": "cpx \"WebClient/**/*.{ts,js,map, html}\" wwwroot"
   },
   "-vs-binding": { "AfterBuild": [ "copyWebClient" ] }
 }
